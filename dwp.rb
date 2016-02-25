@@ -2,6 +2,8 @@
 require 'digest'
 
 
+
+
 class DeterministicPassword
   @valid_characters  = "01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"     
   @base_secret       = "TGIF" 
